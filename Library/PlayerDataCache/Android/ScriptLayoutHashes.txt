@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/arthu/Documents/GitHub/RunForLife_Builds/RunForLife-0.3.2.apk
+C:/Users/arthu/Documents/GitHub/RunForLife_Builds/RunForLife-0.5.apk
 SceneListBegin?
 Assets/Scenes/LoadingScene.unity
 Assets/Scenes/GameScene.unity
@@ -84,7 +84,7 @@ a44114bd4fa541174f78b4bb92bacb48 UnityEngine.UI.dll:UnityEngine.EventSystems.Sta
 e90403eeda069970e0b9de1533de13a6 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 2d58ca16854b99daea8c45e9c0f367b7 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 16da51d1b62ef6d4ee1849350434023b UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
-535cf9c67f93117b651d3c46e70f8abe Assembly-CSharp.dll:.ShopItem
+ae0c6ff7489ccae7badcff0139b0c7cb Assembly-CSharp.dll:.ShopItem
 50b0b141074b216c8b53b1bd467f73c9 Unity.TextMeshPro.dll:TMPro.TMP_InputField
 486cd95c82d8305219c352c06b776e1f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.CallbackExecutor
 486cd95c82d8305219c352c06b776e1f UnityEngine.Advertisements.dll:UnityEngine.Advertisements.Editor.Placeholder
@@ -344,10 +344,11 @@ c31012ca1d394c180dd8125356fd5d6e Assembly-CSharp.dll:.ElephantBulletFresnelContr
 6bd18136d9b176d18c16b1033738b8c9 Assembly-CSharp.dll:Spine.Unity.Modules.SkeletonUtilityGroundConstraint
 02dd79e9dcd3a85271ed4d62123f922d Assembly-CSharp.dll:Spine.Unity.Examples.SpineBlinkPlayer
 5c6f3d829e35a7f4739d816a933757ff Assembly-CSharp.dll:Spine.Unity.BoneFollowerGraphic
-0b85ba4a02390cfbc4ccaac17ccc3e61 Assembly-CSharp.dll:.SoundController
+34d8102fcca4c82b0abafd4ac17049b7 Assembly-CSharp.dll:.SoundController
 18535b25e3a35fb4a574c24f187f3df6 Assembly-CSharp.dll:Spine.Unity.Modules.SkeletonUtilityKinematicShadow
 883cf22224cafc2dafd804c87981a93d Assembly-CSharp.dll:Spine.Unity.BoundingBoxFollower
 d597fe5fc00fc3f8ad771b5f22aae099 Assembly-CSharp.dll:cakeslice.MaterialSwitcher
+51d8a5043914f3cbe980a366670fb62a Assembly-CSharp.dll:.JumpControl
 d75dc834c5dec688db75a55a1724c90f UnityEngine.HoloLens.dll:UnityEngine.Audio.AudioSpatializerMicrosoft
 486cd95c82d8305219c352c06b776e1f UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInput
 e1ea12ca952c81d81a9a21fdf34446ed UnityEngine.HoloLens.dll:UnityEngine.EventSystems.HoloLensInputModule
@@ -383,7 +384,7 @@ e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 42614536f55642c8ba6c2bb9f13a2e41 Assembly-CSharp.dll:Spine.Unity.Examples.MaterialPropertyBlockExample
 f5394b219343f4d7ff86c0a8d541e0cd Assembly-CSharp.dll:.TurtleSpecial
 d34c601928eb7c9e7a11379225bf1c7d Assembly-CSharp.dll:Spine.Unity.SkeletonUtilityBone
-345a11cc76271da6450051e0c7ff8d2e Assembly-CSharp.dll:.MainMenuAnimator
+f6ff5eec26351703706d2ea772854656 Assembly-CSharp.dll:.MainMenuAnimator
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.EnemyDestroyerScript
 8d9878f74170c954720b13a7ba202fb3 Assembly-CSharp.dll:.VFXAfterAction
 282d5f54761849d977e88186f883087f Assembly-CSharp.dll:.CoinScript
@@ -402,7 +403,7 @@ a7620d01c0276e109e4d93af24fc9880 Assembly-CSharp.dll:.PlayFabLogin
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:Spine.Unity.Examples.Spineboy
 d1760ce6c64513f72b3b319e18b8fd13 Assembly-CSharp.dll:.CameraScriptFollow
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-3356f2751ed1d14fcfde4ced93cd0ab6 Assembly-CSharp.dll:.PlayerStats
+60e7af5b820ac4f590c6f089816335f0 Assembly-CSharp.dll:.PlayerStats
 182e416670915c50a548c38c642db0d8 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 f35860350df72508419d9f9fcd288594 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 182e416670915c50a548c38c642db0d8 Vuforia.UnityExtensions.dll:Vuforia.AnchorStageBehaviour
@@ -440,7 +441,7 @@ c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBe
 86d9ece2920a149f1047d9c3544c2d6b Assembly-CSharp.dll:Spine.Unity.Examples.EquipSystemExample
 dd219b3f96d6b0b2e3f0e07221d4370d Assembly-CSharp.dll:.TestMovement
 2843d6ffcaa9b2f8d1a38e3758a8cd7a Assembly-CSharp.dll:Spine.Unity.Examples.DataAssetsFromExportsExample
-bc18ee3e05d76e8d59b76991079dd319 Assembly-CSharp.dll:.OkamiSpecial
+f73f6c58dbd541d5706e8cd5482801d5 Assembly-CSharp.dll:.OkamiSpecial
 182e416670915c50a548c38c642db0d8 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 f35860350df72508419d9f9fcd288594 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 182e416670915c50a548c38c642db0d8 Vuforia.UnityExtensions.dll:Vuforia.AnchorStageBehaviour
@@ -475,3 +476,5 @@ ad24de185ef9a605870b931cda4f181e Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehav
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 6c56ae02f4284693a4039972a37a92a6 Assembly-CSharp-firstpass.dll:.IAPDemo
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.okamiEspecialColliderScript
+d8fcba9000007fee0e8e1719f9a920d0 Assembly-CSharp.dll:.DeactivateAfterX

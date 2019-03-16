@@ -241,7 +241,7 @@ public class PlayFabLogin : MonoBehaviour
     {
         if (Application.platform == RuntimePlatform.Android)
         {
-            //GooglePlayLogin.instance.StartLogInGoogle();
+            
         }
         else if (Application.platform == RuntimePlatform.IPhonePlayer)
         {

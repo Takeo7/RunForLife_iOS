@@ -103,13 +103,19 @@ public class MainMenuAnimator : MonoBehaviour {
     public GameObject tutorial;
     [Space]
     public GameObject internetConection;
+    [Space]
+    [Header("ShopPlusTexts")]
+    [SerializeField]
+    Text coinsPlusTXT;
+    [SerializeField]
+    Text gemsPlusTXT;
 
 	public bool isPoints;
 	public bool isLevel;
 	public bool isDebugAd;
     private void Start()
     {
-        if (PlayFab.PlayFabAuthenticationAPI.IsEntityLoggedIn() == false && Social.localUser.authenticated == false)
+        if (PlayFab.PlayFabAuthenticationAPI.IsEntityLoggedIn() == false && Social.localUser.authenticated == false )
         {
             PlayFabLogin.instance.LogInPlayFabOS();
         }
@@ -147,8 +153,7 @@ public class MainMenuAnimator : MonoBehaviour {
                     break;
             }
         }
-        
-      
+
         PlayFabLogin.instance.GetVIV(CR.playerInfo, instance, EnvironmentController.instance, debugText, logInWindow, PlayFabLogInText);
         EnvironmentController.instance.gameOverDelegate += ToogleDeadWindow;
 
@@ -237,7 +242,7 @@ public class MainMenuAnimator : MonoBehaviour {
 		if (Advertisement.IsReady("rewardedVideo"))
 		{
 			var options = new ShowOptions { resultCallback = HandleShowResult2 };
-			Advertisement.Show("rewardedVideo");
+			Advertisement.Show("rewardedVideo", options);
 		}
 	}
 	void HandleShowResult2(ShowResult result)
@@ -245,16 +250,21 @@ public class MainMenuAnimator : MonoBehaviour {
 		switch (result)
 		{
 			case ShowResult.Finished:
-				Debug.Log("The ad was successfully shown.");
+                debugText.text += "The ad was successfully shown.";
+                Debug.Log("The ad was successfully shown.");
 				CoinsController.instance.SetCoins(10);
+                PlusTextShop(10, true);
+                UpdateCoinsText();
 				break;
 			case ShowResult.Skipped:
-				Debug.Log("The ad was skipped before reaching the end.");
+                debugText.text += "The ad was skipped before reaching the end.";
+                Debug.Log("The ad was skipped before reaching the end.");
 				//Debug.Log("DEAD");
 				
 				break;
 			case ShowResult.Failed:
-				Debug.LogError("The ad failed to be shown.");
+                debugText.text += "The ad failed to be shown.";
+                Debug.LogError("The ad failed to be shown.");
 				//Debug.Log("DEAD");
 				
 				break;
@@ -268,7 +278,7 @@ public class MainMenuAnimator : MonoBehaviour {
 			if (Advertisement.IsReady("rewardedVideo"))
 			{
 				var options = new ShowOptions { resultCallback = HandleShowResult };
-				Advertisement.Show("rewardedVideo");
+				Advertisement.Show("rewardedVideo", options);
 			}
 		}
 		else
@@ -283,12 +293,14 @@ public class MainMenuAnimator : MonoBehaviour {
 		switch (result)
 		{
 			case ShowResult.Finished:
-				Debug.Log("The ad was successfully shown.");
+                debugText.text += "The ad was successfully shown.";
+                Debug.Log("The ad was successfully shown.");
 				CR.PS.Resucitate();
 				continueAfterAd.SetActive(true);
 				break;
 			case ShowResult.Skipped:
-				Debug.Log("The ad was skipped before reaching the end.");
+                debugText.text += "The ad was skipped before reaching the end.";
+                Debug.Log("The ad was skipped before reaching the end.");
 				//Debug.Log("DEAD");
 				Time.timeScale = 1;
 				CR.PS.AC.DeathAnim();
@@ -297,7 +309,8 @@ public class MainMenuAnimator : MonoBehaviour {
 				EnvironmentController.instance.gameOverDelegate();
 				break;
 			case ShowResult.Failed:
-				Debug.LogError("The ad failed to be shown.");
+                debugText.text += "The ad failed to be shown.";
+                Debug.LogError("The ad failed to be shown.");
 				//Debug.Log("DEAD");
 				Time.timeScale = 1;
 				CR.PS.AC.DeathAnim();
@@ -438,7 +451,7 @@ public class MainMenuAnimator : MonoBehaviour {
     {
         if (CR.playerInfo.metersRecord < CharacterReferences.instance.uic.metersRun)
         {
-			CR.playerInfo.metersRecord = CharacterReferences.instance.uic.metersRun;   
+			CR.playerInfo.metersRecord = CharacterReferences.instance.uic.metersRun;      
         }    
         SceneManager.LoadScene(1);
     }
@@ -490,5 +503,31 @@ public class MainMenuAnimator : MonoBehaviour {
 		EnvironmentController.instance.UploadUserDataEC();
 		goBackButton.SetActive(true);
 	}
+    public void PlusTextShop(int i,bool isCoins)
+    {
+        if (isCoins)
+        {
+            coinsPlusTXT.gameObject.SetActive(false);
+            coinsPlusTXT.text = "+ " + i;
+            coinsPlusTXT.gameObject.SetActive(true);
+            Invoke("DeactivateCoin", 0.5f);
+        }
+        else
+        {
+            gemsPlusTXT.gameObject.SetActive(false);
+            gemsPlusTXT.text = "+ " + i;
+            gemsPlusTXT.gameObject.SetActive(true);
+            Invoke("DeactivateGem", 0.5f);
+        }
+    }
+    public void DeactivateCoin()
+    {
+        coinsPlusTXT.gameObject.SetActive(false);
+    }
+    public void DeactivateGem()
+    {
+        gemsPlusTXT.gameObject.SetActive(false);
+
+    }
 
 }

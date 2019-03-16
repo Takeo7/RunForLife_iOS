@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{855E8CDF-0E4B-E8B9-3F35-FC981BE9B6D6}</ProjectGuid>
+    <ProjectGuid>{60E4DC8B-DC8A-DD56-A6B6-B1D41FD87150}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -73,16 +73,16 @@
     <Compile Include="Assets\Plugins\UnityPurchasing\script\PurchasingCheck.cs" />
     <None Include="Assets\Plugins\UnityPurchasing\script\link.xml" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -259,7 +259,7 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
     </Reference>
     <Reference Include="Facebook.Unity.Settings">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -283,34 +283,34 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="ChannelPurchase">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
+      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>
     </Reference>
     <Reference Include="UnityStore">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
+      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Assets/Plugins/UnityChannel/UnityStore.dll</HintPath>
     </Reference>
     <Reference Include="Editor">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
+      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Assets/Plugins/UnityPurchasing/Bin/Editor.dll</HintPath>
     </Reference>
     <Reference Include="Purchasing.Common">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
+      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Assets/Plugins/UnityPurchasing/Bin/Purchasing.Common.dll</HintPath>
     </Reference>
     <Reference Include="Stores">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
+      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Assets/Plugins/UnityPurchasing/Bin/Stores.dll</HintPath>
     </Reference>
     <Reference Include="Apple">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
+      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Assets/Plugins/UnityPurchasing/Bin/Apple/Apple.dll</HintPath>
     </Reference>
     <Reference Include="FacebookStore">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
+      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Assets/Plugins/UnityPurchasing/Bin/Facebook/FacebookStore.dll</HintPath>
     </Reference>
     <Reference Include="Security">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
+      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Assets/Plugins/UnityPurchasing/Bin/Security/live/Security.dll</HintPath>
     </Reference>
     <Reference Include="Tizen">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
+      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Assets/Plugins/UnityPurchasing/Bin/Tizen/Tizen.dll</HintPath>
     </Reference>
     <Reference Include="winrt">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
+      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Assets/Plugins/UnityPurchasing/winrt/winrt.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Advertisements">
       <HintPath>C:/Users/arthu/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>

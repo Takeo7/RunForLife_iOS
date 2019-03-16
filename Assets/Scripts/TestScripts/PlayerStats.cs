@@ -75,7 +75,6 @@ public class PlayerStats : MonoBehaviour {
 			if (CR.playerInfo.metersRecord < CR.uic.metersRun)
 			{
 				CR.playerInfo.metersRecord = CR.uic.metersRun;
-				
 			}
 			//EnvironmentController.instance.gameOverDelegate();
 
