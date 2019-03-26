@@ -124,7 +124,6 @@
     <Compile Include="Assets\spine\spine-unity\Assets\spine-unity\SkeletonUtility\Editor\SkeletonUtilityBoneInspector.cs" />
     <Compile Include="Assets\spine\spine-unity\Assets\spine-unity\SkeletonUtility\Editor\SkeletonUtilityInspector.cs" />
     <None Include="Assets\spine\spine-unity\Assets\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
-    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.95.0.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
@@ -409,18 +408,6 @@
     </Reference>
     <Reference Include="UnityEditor.Facebook.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/Facebook/UnityEditor.Facebook.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.IOSResolver_v1.2.95.0">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.95.0.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.JarResolver_v1.2.95.0">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.95.0.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandler">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
-    </Reference>
-    <Reference Include="Google.VersionHandlerImpl_v1.2.95.0">
-      <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.95.0.dll</HintPath>
     </Reference>
     <Reference Include="ChannelPurchase">
       <HintPath>C:/Users/arthu/Documents/GitHub/AnimalRunner_iOS/RunForLife_iOS/Assets/Plugins/UnityChannel/ChannelPurchase.dll</HintPath>

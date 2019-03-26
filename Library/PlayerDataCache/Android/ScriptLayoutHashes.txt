@@ -1,6 +1,6 @@
 Android
 PlayerPath?
-C:/Users/arthu/Documents/GitHub/RunForLife_Builds/RunForLife-0.5.apk
+C:/Users/arthu/Documents/GitHub/RunForLife_Builds/RunForLife-1.0.apk
 SceneListBegin?
 Assets/Scenes/LoadingScene.unity
 Assets/Scenes/GameScene.unity
@@ -372,6 +372,7 @@ ce190756542926c5384358a89fc0e85e Assembly-CSharp.dll:.ChallengesController
 36f21fe90d9e822117bbb4fe36dc6580 Assembly-CSharp.dll:.EnvironmentPrefabController
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.CaveInOut
 b57f13f72b95d38014e8c802e32bd28c Assembly-CSharp.dll:.CharacterReferences
+d8fcba9000007fee0e8e1719f9a920d0 Assembly-CSharp.dll:.DeactivateAfterX
 9fb4c0c695c3e9ceb5363822c1e286b5 Assembly-CSharp.dll:.LoadingParallaxScript
 25113d71b696bf15b294cd2e0203d10d Assembly-CSharp.dll:Spine.Unity.Examples.EquipButtonExample
 68ce69e7be2dc2d67e452eee6b8e4bb8 Assembly-CSharp.dll:.ParallaxController
@@ -384,7 +385,7 @@ e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 42614536f55642c8ba6c2bb9f13a2e41 Assembly-CSharp.dll:Spine.Unity.Examples.MaterialPropertyBlockExample
 f5394b219343f4d7ff86c0a8d541e0cd Assembly-CSharp.dll:.TurtleSpecial
 d34c601928eb7c9e7a11379225bf1c7d Assembly-CSharp.dll:Spine.Unity.SkeletonUtilityBone
-f6ff5eec26351703706d2ea772854656 Assembly-CSharp.dll:.MainMenuAnimator
+d26bd92f611ee99eff2d82e937cfb37b Assembly-CSharp.dll:.MainMenuAnimator
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.EnemyDestroyerScript
 8d9878f74170c954720b13a7ba202fb3 Assembly-CSharp.dll:.VFXAfterAction
 282d5f54761849d977e88186f883087f Assembly-CSharp.dll:.CoinScript
@@ -439,6 +440,7 @@ c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBe
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 67c108e059a90f951c0a9a60476d4d28 Assembly-CSharp.dll:.FillAmountVariation
 86d9ece2920a149f1047d9c3544c2d6b Assembly-CSharp.dll:Spine.Unity.Examples.EquipSystemExample
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.okamiEspecialColliderScript
 dd219b3f96d6b0b2e3f0e07221d4370d Assembly-CSharp.dll:.TestMovement
 2843d6ffcaa9b2f8d1a38e3758a8cd7a Assembly-CSharp.dll:Spine.Unity.Examples.DataAssetsFromExportsExample
 f73f6c58dbd541d5706e8cd5482801d5 Assembly-CSharp.dll:.OkamiSpecial
@@ -476,5 +478,3 @@ ad24de185ef9a605870b931cda4f181e Vuforia.UnityExtensions.dll:Vuforia.VuMarkBehav
 c31ff9acb65f7a15b5c6fd77c3314d83 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 486cd95c82d8305219c352c06b776e1f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 6c56ae02f4284693a4039972a37a92a6 Assembly-CSharp-firstpass.dll:.IAPDemo
-486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.okamiEspecialColliderScript
-d8fcba9000007fee0e8e1719f9a920d0 Assembly-CSharp.dll:.DeactivateAfterX

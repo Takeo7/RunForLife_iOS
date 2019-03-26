@@ -109,13 +109,15 @@ public class MainMenuAnimator : MonoBehaviour {
     Text coinsPlusTXT;
     [SerializeField]
     Text gemsPlusTXT;
+    [Space]
+    public Button shopDarkButton;
 
 	public bool isPoints;
 	public bool isLevel;
 	public bool isDebugAd;
     private void Start()
     {
-        if (PlayFab.PlayFabAuthenticationAPI.IsEntityLoggedIn() == false && Social.localUser.authenticated == false )
+        if (PlayFab.PlayFabAuthenticationAPI.IsEntityLoggedIn() == false && Social.localUser.authenticated == false)
         {
             PlayFabLogin.instance.LogInPlayFabOS();
         }
@@ -153,7 +155,7 @@ public class MainMenuAnimator : MonoBehaviour {
                     break;
             }
         }
-
+        
         PlayFabLogin.instance.GetVIV(CR.playerInfo, instance, EnvironmentController.instance, debugText, logInWindow, PlayFabLogInText);
         EnvironmentController.instance.gameOverDelegate += ToogleDeadWindow;
 
@@ -255,6 +257,7 @@ public class MainMenuAnimator : MonoBehaviour {
 				CoinsController.instance.SetCoins(10);
                 PlusTextShop(10, true);
                 UpdateCoinsText();
+                shopDarkButton.enabled = true;
 				break;
 			case ShowResult.Skipped:
                 debugText.text += "The ad was skipped before reaching the end.";
@@ -451,7 +454,7 @@ public class MainMenuAnimator : MonoBehaviour {
     {
         if (CR.playerInfo.metersRecord < CharacterReferences.instance.uic.metersRun)
         {
-			CR.playerInfo.metersRecord = CharacterReferences.instance.uic.metersRun;      
+			CR.playerInfo.metersRecord = CharacterReferences.instance.uic.metersRun;			      
         }    
         SceneManager.LoadScene(1);
     }
